@@ -7,6 +7,7 @@ import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BusinessIcon from "@mui/icons-material/Business";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import Avatar from "@mui/material/Avatar";
 
 function Header() {
   return (
@@ -25,7 +26,12 @@ function Header() {
         <HeaderOption Icon={HomeIcon} title="Home" />
         <HeaderOption Icon={SupervisorAccountIcon} title="My Network" />
         <HeaderOption Icon={BusinessIcon} title="Jobs" />
+        <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsNoneIcon} title="Notifications" />
+        <HeaderOption
+          avatar="https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/14851/thumb_Screen_Shot_2017-09-13_at_10.14.01_AM.png"
+          title="Notifications"
+        />
       </div>
     </div>
   );
